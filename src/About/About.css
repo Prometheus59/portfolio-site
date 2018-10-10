@@ -1,0 +1,49 @@
+.default {
+  background-color: rgb(36, 42, 56);
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 80px 50px 50px 100px;
+  height: 27em;
+}
+
+#intro p {
+  width: 50em;
+}
+
+#interests {
+  text-align: center;
+  background-color: #385677;
+}
+
+.header {
+  margin: 0px;
+  font-size: 280%;
+}
+
+.subheader {
+  margin: 0px 0px 20px 0px;
+}
+
+#info p {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#info-pics ul {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+}
+
+#info-pics li {
+  margin: 10px 10px 10px 10px;
+  list-style: none;
+  background: darkgrey;
+  padding: 10px;
+}
+
