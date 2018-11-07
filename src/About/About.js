@@ -4,15 +4,13 @@ import "./About.css";
 class About extends Component {
   render() {
     return (
-      <div id="About" className='default'>
+      <div id="About" className="default">
         <div id="intro">
-          <h2 className='header'>Hi, I'm Ryan</h2>
-          <p>I'm a computer science student at Wilfred Laurier University</p>
+          <h2 className="header">Hi, I'm Ryan</h2>
+          <p>I'm a junior full-stack web developer with a passion
+            for creating beautiful, responsive web applications in minimal time.</p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
-            deleniti eligendi dicta quo commodi libero nulla excepturi facilis
-            labore eius repellat dolorem, cupiditate provident expedita. Iste
-            modi tempora odit labore?
+            I am currently studying computer science at Wilfred Laurier University in Waterloo, Ontario.
           </p>
         </div>
       </div>

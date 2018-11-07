@@ -6,7 +6,7 @@ class Interests extends React.Component {
     return (
       <div id="interests" className='default'>
         <div id='info'>
-          <h2 className='header'>Some information about me</h2>
+          <h2 className='header'>A little bit about me</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio
             atque similique consectetur tenetur, placeat fugit aut. Sequi id,
@@ -16,12 +16,13 @@ class Interests extends React.Component {
           </p>
         </div>
         <div id='info-pics'>
-            <h3 className='subheader'></h3>
+            <h3 className='subheader'>My Interests</h3>
             <ul>
                 <li>Coding</li>
-                <li>Gym</li>
+                <li>Fitness</li>
                 <li>Fishing</li>
-                <li>TV</li>
+                <li>Origami</li>
+                <li>Lucid Dreaming</li>
                 <li>Cooking</li>
             </ul>
         </div>
