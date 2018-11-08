@@ -4,6 +4,7 @@ import About from "./About/About";
 import Interests from "./About/Interests";
 import Technology from "./Technology/Technology"
 import Projects from "./Projects/Projects"
+import Work from "./Work/Work"
 import "./App.css";
 
 class App extends Component {
@@ -13,6 +14,7 @@ class App extends Component {
         <Nav />
         <About />
         <Interests />
+        <Work />
         <Technology />
         <Projects />
       </div>
