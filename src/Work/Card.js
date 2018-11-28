@@ -15,10 +15,17 @@ const styles = {
     marginBottom: 40
   },
   title: {
-    fontSize: 14
+    fontSize: 14,
+    fontWeight: 700,
+    color: 'black'
   },
   pos: {
-    marginBottom: 12
+    marginBottom: 12,
+    marginTop: 12
+  },
+  learn: {
+    marginLeft: 'auto',
+    marginRight:'auto'
   }
 };
 
@@ -44,7 +51,7 @@ class SimpleCard extends React.Component {
           <Typography component="p">{this.props.about}</Typography>
         </CardContent>
         <CardActions>
-          <Button size="small" color="primary" style={{ fontWeight: "bold" }}>
+          <Button size="small" color="primary" className={classes.learn}>
             Learn More
           </Button>
         </CardActions>

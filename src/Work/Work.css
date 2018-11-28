@@ -4,3 +4,15 @@
     flex-wrap: wrap;
     justify-content: center; /* Change to space-around when there are more cards */
 }
+
+#Work {
+    text-align: center;
+    background-color: #385677;
+    color: white;
+}
+
+#Work h1 {
+    margin-top: 0;
+    margin-bottom: 60px;
+    font-size: 300%;
+}
