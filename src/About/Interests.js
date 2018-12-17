@@ -18,7 +18,7 @@ class Interests extends React.Component {
         <div id='info-pics'>
             <h3 className='subheader'>My Interests</h3>
             <ul>
-                <li>Coding</li>
+                <li>Guitar</li>
                 <li>Fitness</li>
                 <li>Fishing</li>
                 <li>Origami</li>
