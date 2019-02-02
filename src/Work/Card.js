@@ -4,8 +4,8 @@ import { withStyles } from "@material-ui/core/styles";
 import Card from "@material-ui/core/Card";
 import CardActions from "@material-ui/core/CardActions";
 import CardContent from "@material-ui/core/CardContent";
-import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
+import DialogPop from "./Dialog";
 
 const styles = {
   card: {
@@ -17,15 +17,15 @@ const styles = {
   title: {
     fontSize: 14,
     fontWeight: 700,
-    color: 'black'
+    color: "black"
   },
   pos: {
     marginBottom: 12,
     marginTop: 12
   },
   learn: {
-    marginLeft: 'auto',
-    marginRight:'auto'
+    marginLeft: "auto",
+    marginRight: "auto"
   }
 };
 
@@ -51,9 +51,19 @@ class SimpleCard extends React.Component {
           <Typography component="p">{this.props.about}</Typography>
         </CardContent>
         <CardActions>
-          <Button size="small" color="primary" className={classes.learn}>
-            Learn More
-          </Button>
+          <DialogPop
+            className={classes.learn}
+            title={this.props.company}
+            text1={`
+            • Designed, developed and hosted company website as well as managed all leads generated
+            from the website
+
+            • Preparing information, quoting insurance premiums and sending quotes to licensed WeCan
+            Staff
+
+            • Responsible for incoming mail, maintained accurate document records
+            `}
+          />
         </CardActions>
       </Card>
     );
