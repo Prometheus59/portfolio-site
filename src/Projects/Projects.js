@@ -1,5 +1,8 @@
 import "./Projects.css";
 import imgfile from "../Static/project_images/tempfile.jpg";
+import lucidplatform from "../Static/project_images/lucid-platform-cover.png";
+import wecan from "../Static/project_images/WeCanInsurace.png";
+import wloopoi from "../Static/project_images/poiwaterloo.png";
 import ProjectCard from "./ProjectCard";
 import React from "react";
 
@@ -10,32 +13,35 @@ class Projects extends React.Component {
         <h1 id="projects" className="title">
           Projects
         </h1>
-        <div id='Featured'>
-          <h3 class>Featured Projects</h3>
+        <div id="Featured">
+          <h3>Featured Projects</h3>
           <div className="ProjectCards">
             <ProjectCard
-              imglink={imgfile}
-              title="Project 1"
-              description="This is a sample description"
+              imglink={lucidplatform}
+              title="Lucid Dreaming Platform"
+              description="Resources for lucid dreaming"
+              githublink="https://github.com/Prometheus59/Lucid-Platform"
             />
             <ProjectCard
-              imglink={imgfile}
-              title="Project 2"
-              description="Sample Description"
+              imglink={wecan}
+              title="WeCan Insurance Website"
+              description="Website built for WeCan Insurance"
+              githublink="https://github.com/Prometheus59/WeCanWebsiteV2"
             />
             <ProjectCard
-              imglink={imgfile}
-              title="Project 3"
-              description="Sample Description"
+              imglink={wloopoi}
+              title="Waterloo POI"
+              description="Points of interest around Waterloo, ON"
+              githublink="https://github.com/Prometheus59/Waterloo-POI"
             />
           </div>
         </div>
 
         <h3>Other Projects</h3>
         <ul className="list">
-          <li>Project1</li>
-          <li>Project2</li>
-          <li>Project3</li>
+          <li>Lucid Dreaming Platform</li>
+          <li>WeCan Insurance Website</li>
+          <li>Waterloo POI</li>
         </ul>
       </div>
     );
