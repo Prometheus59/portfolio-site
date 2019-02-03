@@ -15,45 +15,43 @@ class Technology extends Component {
   render() {
     return (
       <div id="Technology" className="default">
-        <div id="">
-          <h2 className="title">Programming Languages</h2>
-          <ul className="list">
-            <li>
-              <img src={pythonimg} alt="python" />
-            </li>
-            <li>
-              <img src={html5img} alt="html5" />
-            </li>
-            <li>
-              <img src={css3img} alt="css3" />
-            </li>
-            <li>
-              <img src={javascriptimg} alt="javascript" />
-            </li>
-            <li>
-              <img src={cimg} alt="c" />
-            </li>
-          </ul>
+        <h2 className="title">Programming Languages</h2>
+        <ul className="list">
+          <li>
+            <img src={pythonimg} alt="python" />
+          </li>
+          <li>
+            <img src={html5img} alt="html5" />
+          </li>
+          <li>
+            <img src={css3img} alt="css3" />
+          </li>
+          <li>
+            <img src={javascriptimg} alt="javascript" />
+          </li>
+          <li>
+            <img src={cimg} alt="c" />
+          </li>
+        </ul>
 
-          <h2 className="title">Technical Tools</h2>
-          <ul className="list">
-            <li>
-              <img src={githubimg} alt="github" />
-            </li>
-            <li>
-              <img src={reactimg} alt="react" />
-            </li>
-            <li>
-              <img src={SASSimg} alt="sass" />
-            </li>
-            <li>
-              <img src={jqueryimg} alt="jquery" />
-            </li>
-            <li>
-              <img src={psqlimg} alt="psql" />
-            </li>
-          </ul>
-        </div>
+        <h2 className="title">Technical Tools</h2>
+        <ul className="list">
+          <li>
+            <img src={githubimg} alt="github" />
+          </li>
+          <li>
+            <img src={reactimg} alt="react" />
+          </li>
+          <li>
+            <img src={SASSimg} alt="sass" />
+          </li>
+          <li>
+            <img src={jqueryimg} alt="jquery" />
+          </li>
+          <li>
+            <img src={psqlimg} alt="psql" />
+          </li>
+        </ul>
       </div>
     );
   }
