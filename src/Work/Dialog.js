@@ -77,6 +77,7 @@ class DialogPop extends React.Component {
           variant="outlined"
           color="secondary"
           onClick={this.handleClickOpen}
+          className="learnButton"
         >
           Learn More
         </Button>
@@ -89,15 +90,9 @@ class DialogPop extends React.Component {
             {this.props.title}
           </DialogTitle>
           <DialogContent>
-            <Typography gutterBottom>
-              {this.props.text1}
-            </Typography>
-            <Typography gutterBottom>
-            {this.props.text2}
-            </Typography>
-            <Typography gutterBottom>
-            {this.props.text3}
-            </Typography>
+            <Typography gutterBottom>{this.props.text1}</Typography>
+            <Typography gutterBottom>{this.props.text2}</Typography>
+            <Typography gutterBottom>{this.props.text3}</Typography>
           </DialogContent>
           <DialogActions>
             <Button onClick={this.handleClose} color="primary">

@@ -36,7 +36,12 @@ function ProjectCard(props) {
         <Button size="small" color="primary">
           Share
         </Button>
-        <Button size="small" color="primary" href={props.githublink}>
+        <Button
+          size="small"
+          color="primary"
+          target="_blank"
+          href={props.githublink}
+        >
           Learn More
         </Button>
       </CardActions>
