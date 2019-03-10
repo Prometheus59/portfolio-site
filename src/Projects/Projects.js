@@ -1,5 +1,5 @@
 import "./Projects.css";
-import imgfile from "../Static/project_images/tempfile.jpg";
+import Carousel from "./Carousel";
 import lucidplatform from "../Static/project_images/lucid-platform-cover.png";
 import wecan from "../Static/project_images/WeCanInsurace.png";
 import wloopoi from "../Static/project_images/poiwaterloo.png";
@@ -38,11 +38,7 @@ class Projects extends React.Component {
         </div>
 
         <h3>Other Projects</h3>
-        <ul className="list">
-          <li>Lucid Dreaming Platform</li>
-          <li>WeCan Insurance Website</li>
-          <li>Waterloo POI</li>
-        </ul>
+        <Carousel />
       </div>
     );
   }
