@@ -10,7 +10,7 @@ class Nav extends Component {
         <div id="nav">
           <h2>Ryan Karumachery</h2>
           <div id="right">
-            <Link smooth to="#intro">
+            <Link smooth to="#About">
               About
             </Link>
             <Link smooth to="#interests">
@@ -22,7 +22,7 @@ class Nav extends Component {
             <Link smooth to="#Technology">
               Technology
             </Link>
-            <Link smooth to="#projects">
+            <Link smooth to="#Projects">
               Projects
             </Link>
             <a href="#">Resume</a>

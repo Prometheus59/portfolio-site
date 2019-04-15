@@ -5,7 +5,7 @@
   justify-content: flex-start;
   flex-direction: column;
   padding: 50px 50px 50px 50px;
-  height: 27em;
+  height: 22em;
 }
 
 #intro p {
@@ -15,6 +15,7 @@
 #interests {
   text-align: center;
   background-color: #385677;
+  padding-top: 100px;
 }
 
 .header {

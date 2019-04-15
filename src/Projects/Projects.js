@@ -10,7 +10,7 @@ class Projects extends React.Component {
   render() {
     return (
       <div className="default ProjectStyle">
-        <h1 id="projects" className="title">
+        <h1 id="Projects" className="title">
           Projects
         </h1>
         <div id="Featured">

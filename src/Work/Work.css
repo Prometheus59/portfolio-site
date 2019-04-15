@@ -6,6 +6,7 @@
 }
 
 #Work {
+  padding-top: 100px;
   text-align: center;
   background-color: #385677;
   color: white;
@@ -19,4 +20,5 @@
 
 .learnButton {
   margin-left: 9em !important;
+  margin-bottom: 10px !important;
 }
