@@ -1,0 +1,68 @@
+#Projects {
+  background-color: #385677;
+  padding-top: 100px;
+}
+
+.title {
+  text-align: center;
+}
+
+.ProjectCards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.ProjectStyle {
+  background-color: #385677;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+
+.ProjectCards #pcard {
+  margin: 10px 10px 10px 10px;
+  border: 7px solid rgb(36, 42, 56);
+  width: 360px;
+}
+
+/* Carousel Styles */
+
+.slick-active {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.resourceCarouselSlides {
+  max-width: 350px;
+}
+
+.resourceCarousel {
+  height: 300px;
+}
+
+.slick-list {
+  height: 300px;
+  text-align: center;
+}
+
+.slick-arrow {
+  height: 60px;
+  width: 60px;
+}
+
+.slick-prev {
+  position: relative;
+  top: 20px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-size: 40px !important;
+}
+
+.slick-next:before {
+  position: relative;
+  top: 20px;
+}
