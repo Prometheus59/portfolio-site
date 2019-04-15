@@ -37,6 +37,14 @@
   max-width: 350px;
 }
 
+.resourceCarousel {
+  height: 300px;
+}
+
+.slick-list {
+  height: 300px;
+}
+
 .slick-arrow {
   height: 60px;
   width: 60px;
@@ -53,6 +61,6 @@
 }
 
 .slick-next:before {
-  position: absolute;
+  position: relative;
   top: 20px;
 }
