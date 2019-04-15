@@ -1,6 +1,6 @@
 import "./Projects.css";
 import Carousel from "./Carousel";
-import luciddreams from "../Static/project_images/lucid.png";
+import lucidplatform from "../Static/project_images/lucid-platform-cover.png";
 import wecan from "../Static/project_images/WeCanInsurace.png";
 import wloopoi from "../Static/project_images/poiwaterloo.png";
 import ProjectCard from "./ProjectCard";
@@ -17,10 +17,10 @@ class Projects extends React.Component {
           <h3>Featured Projects</h3>
           <div className="ProjectCards">
             <ProjectCard
-              imglink={luciddreams}
+              imglink={lucidplatform}
               title="Lucid Dreaming Platform"
               description="Resources for lucid dreaming"
-              githublink="https://github.com/Prometheus59/lucid-dreams"
+              githublink="https://github.com/Prometheus59/Lucid-Platform"
             />
             <ProjectCard
               imglink={wecan}
