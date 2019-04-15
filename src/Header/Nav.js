@@ -25,7 +25,12 @@ class Nav extends Component {
             <Link smooth to="#Projects">
               Projects
             </Link>
-            <a href="#">Resume</a>
+            <a
+              target="_blank"
+              href="https://drive.google.com/file/d/16X80QIsllaY2pGDpFzxDWcNd4e_Nzxij/view?usp=sharing"
+            >
+              Resume
+            </a>
           </div>
         </div>
       </HashRouter>
