@@ -53,15 +53,7 @@ class SimpleCard extends React.Component {
           <DialogPop
             className={classes.learn}
             title={this.props.company}
-            text1={`
-            • Designed, developed and hosted company website as well as managed all leads generated
-            from the website
-
-            • Preparing information, quoting insurance premiums and sending quotes to licensed WeCan
-            Staff
-
-            • Responsible for incoming mail, maintained accurate document records
-            `}
+            text1={this.props.text}
           />
         </CardActions>
       </Card>
