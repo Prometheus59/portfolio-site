@@ -24,7 +24,8 @@ const styles = {
   },
   learn: {
     marginLeft: "auto",
-    marginRight: "auto"
+    marginRight: "auto",
+    display: "inline"
   }
 };
 
@@ -53,7 +54,9 @@ class SimpleCard extends React.Component {
           <DialogPop
             className={classes.learn}
             title={this.props.company}
-            text1={this.props.text}
+            text1={this.props.text1}
+            text2={this.props.text2}
+            text3={this.props.text3}
           />
         </CardActions>
       </Card>
