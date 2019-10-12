@@ -47,7 +47,15 @@
 #info-pics li {
   margin: 10px 10px 10px 10px;
   list-style: none;
-  background: darkgrey;
+  background: rgba(255, 255, 255, 0.87);
+  color: black;
+  border-radius: 20px;
   padding: 10px;
+  transition: all 0.2s ease-in-out;
 }
 
+#info-pics li:hover {
+  transform: scale(1.2);
+  color: white;
+  background:  rgb(36, 42, 56);
+}

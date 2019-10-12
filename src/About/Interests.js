@@ -20,6 +20,7 @@ class Interests extends React.Component {
             <ul>
                 <li>Guitar</li>
                 <li>Fitness</li>
+                <li>Programming</li>
                 <li>Fishing</li>
                 <li>Origami</li>
                 <li>Lucid Dreaming</li>
