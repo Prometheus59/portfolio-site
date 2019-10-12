@@ -17,7 +17,7 @@ class Technology extends Component {
   render() {
     return (
       <div id="Technology" className="default">
-        <h2 className="title">Programming Languages</h2>
+        <h3 className="title">Programming Languages</h3>
         <ul className="list">
           <li>
             <img src={pythonimg} alt="python" />

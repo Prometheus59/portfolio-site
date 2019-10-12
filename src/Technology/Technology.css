@@ -1,6 +1,7 @@
 .list {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   padding-top: 1.5em;
   padding-left: 10em;
   padding-right: 10em;
@@ -25,9 +26,10 @@ li img:hover {
 
 #Technology {
   background-color: #385677;
-  height: 35em;
+  height: auto;
 }
 
-.title {
+#Technology .title {
   margin-top: 40px;
+  font-size: 200%;
 }

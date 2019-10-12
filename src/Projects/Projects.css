@@ -5,6 +5,7 @@
 
 .title {
   text-align: center;
+  font-size: 280%;
 }
 
 .ProjectCards {
@@ -48,8 +49,8 @@
 }
 
 .slick-arrow {
-  height: 60px;
-  width: 60px;
+  height: 70px;
+  width: 70px;
 }
 
 .slick-prev {
