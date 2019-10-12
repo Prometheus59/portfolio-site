@@ -33,9 +33,12 @@ function ProjectCard(props) {
         </CardContent>
       </CardActionArea>
       <CardActions>
+        {/*
+        TODO: Implement share button
         <Button size="small" color="primary">
           Share
         </Button>
+        */}
         <Button
           size="small"
           color="primary"
