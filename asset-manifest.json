@@ -1,16 +1,17 @@
 {
-  "main.css": "static/css/main.a3d54416.css",
-  "main.css.map": "static/css/main.a3d54416.css.map",
-  "main.js": "static/js/main.59613112.js",
-  "main.js.map": "static/js/main.59613112.js.map",
+  "main.css": "static/css/main.e5283d31.css",
+  "main.css.map": "static/css/main.e5283d31.css.map",
+  "main.js": "static/js/main.f583435d.js",
+  "main.js.map": "static/js/main.f583435d.js.map",
   "static\\media\\CSS3.png": "static/media/CSS3.07270c13.png",
   "static\\media\\WeCanInsurace.png": "static/media/WeCanInsurace.1dcc79c2.png",
-  "static\\media\\c.png": "static/media/c.18fca717.png",
+  "static\\media\\c.png": "static/media/c.e79e5dbd.png",
   "static\\media\\elexicon-energy.png": "static/media/elexicon-energy.7203bcde.png",
   "static\\media\\html5.png": "static/media/html5.664a8c00.png",
-  "static\\media\\jquery.svg": "static/media/jquery.499148cb.svg",
+  "static\\media\\java.png": "static/media/java.a7fd72b8.png",
   "static\\media\\jslogo.png": "static/media/jslogo.e797a8c5.png",
   "static\\media\\lucid-platform-cover.png": "static/media/lucid-platform-cover.fcde70c5.png",
+  "static\\media\\node.png": "static/media/node.f8dab57d.png",
   "static\\media\\poiwaterloo.png": "static/media/poiwaterloo.da2e8264.png",
   "static\\media\\psql.png": "static/media/psql.086f2a4d.png",
   "static\\media\\python.ico": "static/media/python.86bce2e2.ico",
@@ -18,5 +19,6 @@
   "static\\media\\slick.eot": "static/media/slick.ced611da.eot",
   "static\\media\\slick.svg": "static/media/slick.f97e3bbf.svg",
   "static\\media\\slick.ttf": "static/media/slick.d41f55a7.ttf",
-  "static\\media\\slick.woff": "static/media/slick.b7c9e1e4.woff"
+  "static\\media\\slick.woff": "static/media/slick.b7c9e1e4.woff",
+  "static\\media\\sql.png": "static/media/sql.8956e826.png"
 }
