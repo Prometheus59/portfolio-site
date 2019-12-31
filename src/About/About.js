@@ -15,7 +15,7 @@ class About extends Component {
           </div>
           <div className="slide-in-left-delay">
             <p>
-              I am currently studying computer science at Wilfred Laurier
+              I am currently studying computer science at Wilfrid Laurier
               University in Waterloo, Ontario.
             </p>
           </div>
