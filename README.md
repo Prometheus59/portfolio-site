@@ -4,4 +4,4 @@
 
 Personal site showcasing personal projects, work experience, and hobbies.
 
-Url Link: http://www.ryankarumanchery.info
+Url Link: http://www.ryankarumanchery.me
