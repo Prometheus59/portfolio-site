@@ -30,6 +30,10 @@
 
 /* Carousel Styles */
 
+.OtherCards {
+  margin-top: 60px;
+}
+
 .slick-active {
   margin-left: auto;
   margin-right: auto;

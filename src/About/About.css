@@ -153,7 +153,7 @@
   color: black;
 }
 
-#info-pics li a:hover {
+#info-pics li:hover a{
   color: white;
 }
 

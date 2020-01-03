@@ -37,8 +37,10 @@ class Projects extends React.Component {
           </div>
         </div>
 
+        <div className="OtherCards">
         <h3>Other Projects</h3>
         <Carousel />
+        </div>
       </div>
     );
   }
