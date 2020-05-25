@@ -2,7 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 //import PaperLink from "../Common/PaperLink";
 import lucidplatform from "../Static/project_images/lucid-platform-cover.png";
-import wecan from "../Static/project_images/WeCanInsurace.png";
+import newsprnt from "../Static/project_images/news_pic.jpg";
 import wloopoi from "../Static/project_images/poiwaterloo.png";
 import notes from "../Static/project_images/notes.png";
 import cvgenerator from "../Static/project_images/cv-generator.png";
@@ -50,10 +50,10 @@ class Carousel extends React.Component {
         </div>
         <div className="resourceCarouselSlides">
           <ProjectCard
-            imglink={wecan}
-            title="WeCan Insurance Website"
-            description="Website built for WeCan Insurance"
-            githublink="https://github.com/Prometheus59/WeCanWebsiteV2"
+            imglink={newsprnt}
+            title="Daily Digest"
+            description="Creates pdf with top posts/articles from sites"
+            githublink="https://github.com/Prometheus59/print-news"
           />
         </div>
       </Slider>
