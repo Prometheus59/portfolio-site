@@ -38,13 +38,13 @@ class Work extends React.Component {
             text3="• Maintained records for disconnects, reconnects, contracting, weather and IVR’s"
           />
           <SimpleCard
-            company="Co-operators Group Ltd."
-            position="Full Stack Software Developer"
-            date="May 2020 - Aug 2021"
+            company="Manulife Financial"
+            position="Software Engineer"
+            date="Sept 2020 - Aug 2021"
             about="Have not started working yet"
-            text1="• Front End Development: Angular, TypeScript"
-            text2="• Back End Development: Node.js, Express, PostgreSQL"
-            text3="• Exposure to DevOps practices"
+            text1="• Not sure what to expect"
+            text2="• Hopefully something in fullstack"
+            text3="• Will update this when I find out"
           />
         </div>
       </div>

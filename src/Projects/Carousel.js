@@ -37,7 +37,7 @@ class Carousel extends React.Component {
             imglink={cvgenerator}
             title="Cover Letter Generator"
             description="Tool to create generic/custom/boring cv's"
-            githublink="https://github.com/Prometheus59/Elexicon-Energy"
+            githublink="https://github.com/Prometheus59/Cover-Letter-Generator"
           />
         </div>
         <div className="resourceCarouselSlides">
