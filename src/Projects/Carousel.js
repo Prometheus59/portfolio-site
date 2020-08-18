@@ -5,6 +5,7 @@ import lucidplatform from "../Static/project_images/lucid-platform-cover.png";
 import newsprnt from "../Static/project_images/news_pic.jpg";
 import wloopoi from "../Static/project_images/poiwaterloo.png";
 import notes from "../Static/project_images/notes.png";
+import pac from "../Static/project_images/pac.png";
 import cvgenerator from "../Static/project_images/cv-generator.png";
 import ProjectCard from "./ProjectCard";
 import "../../node_modules/slick-carousel/slick/slick-theme.css"; 
@@ -24,6 +25,14 @@ class Carousel extends React.Component {
     };
     return (
       <Slider {...settings}>
+        <div className="resourceCarouselSlides">
+          <ProjectCard
+            imglink={pac}
+            title="Pac-Sort"
+            description="Data classification algo to classify websites"
+            githublink="https://github.com/Prometheus59/pac-sort"
+          />
+        </div>
         <div className="resourceCarouselSlides">
           <ProjectCard
             imglink={notes}
