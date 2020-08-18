@@ -38,10 +38,19 @@ class Work extends React.Component {
             text3="• Maintained records for disconnects, reconnects, contracting, weather and IVR’s"
           />
           <SimpleCard
+            company="Elexicon Energy"
+            position="Database Engineer"
+            date="July 2020"
+            about="Merged databases from company merger"
+            text1="• Created and modified complex SQL Queries"
+            text2="• Tested and deployed SSRS reports to Sharepoint"
+            text3=""
+          />
+          <SimpleCard
             company="Manulife Financial"
             position="Software Engineer"
             date="Sept 2020 - Aug 2021"
-            about="Have not started working yet"
+            about="TBD"
             text1="• Not sure what to expect"
             text2="• Hopefully something in fullstack"
             text3="• Will update this when I find out"
