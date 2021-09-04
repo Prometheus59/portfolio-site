@@ -8,7 +8,12 @@
   height: 22em;
 }
 
-#intro p {
+#About {
+  display: flex;
+  flex-direction: row;
+}
+
+.default #intro p {
   width: 40em;
   margin-top: 40px;
   font-size: 120%;
@@ -16,6 +21,12 @@
 
 .info {
   margin-top: 90px;
+}
+
+#profilePic {
+  height: 30em;
+  width: 30em;
+  margin: auto;
 }
 
 #interests {
@@ -30,22 +41,27 @@
   font-size: 280%;
 }
 
-.focus-in-expand {
-  -webkit-animation: focus-in-expand 1.4s cubic-bezier(0.25, 0.46, 0.45, 0.94)
-    both;
-  animation: focus-in-expand 1.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-}
 
 .slide-in-left {
   -webkit-animation: slide-in-left 0.9s cubic-bezier(0.25, 0.46, 0.45, 0.94)
-    1.4s both;
-  animation: slide-in-left 0.9s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1.4s both;
+    0.1s both, text-shadow-pop-tl 0.9s 3s both;
+  animation: slide-in-left 0.9s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.1s both, text-shadow-pop-tl 0.9s 3s both;
 }
 
-.slide-in-left-delay {
+.slide-in-left-delay-1 {
   -webkit-animation: slide-in-left 0.9s cubic-bezier(0.25, 0.46, 0.45, 0.94)
-    2.2s both;
-  animation: slide-in-left 0.9s cubic-bezier(0.25, 0.46, 0.45, 0.94) 2.2s both;
+    0.7s both;
+  animation: slide-in-left 0.9s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.7s both;
+}
+
+.slide-in-left-delay-2 {
+  -webkit-animation: slide-in-left 0.9s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    1.2s both;
+  animation: slide-in-left 0.9s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1.2s both;
+}
+
+.slide-in-blurred-br {
+  animation: slide-in-blurred-br 0.6s cubic-bezier(0.23, 1, 0.32, 1) 2s both;
 }
 
 /* ----------------------------------------------
@@ -55,11 +71,44 @@
  * w: http://animista.net, t: @cssanimista
  * ---------------------------------------------- */
 
+/* 
+ Profile Picture Animation
+*/
+
+@keyframes slide-in-blurred-br {
+  0% {
+    transform: translate(1000px, 1000px) skew(80deg, 10deg);
+    transform-origin: 0 100%;
+    filter: blur(40px);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0, 0) skew(0deg, 0deg);
+    transform-origin: 50% 50%;
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+
+@keyframes text-shadow-pop-tl {
+  0% {
+    text-shadow: 0 0 #555, 0 0 #555, 0 0 #555, 0 0 #555, 0 0 #555, 0 0 #555,
+      0 0 #555, 0 0 #555;
+    transform: translateX(0) translateY(0);
+  }
+  100% {
+    text-shadow: -1px -1px #555, -2px -2px #555, -3px -3px #555, -4px -4px #555,
+      -5px -5px #555, -6px -6px #555, -7px -7px #555, -8px -8px #555;
+    transform: translateX(8px) translateY(8px);
+  }
+}
+
 /**
  * ----------------------------------------
  * animation focus-in-expand
  * ----------------------------------------
  */
+
 @-webkit-keyframes focus-in-expand {
   0% {
     letter-spacing: -0.5em;
@@ -73,6 +122,7 @@
     opacity: 1;
   }
 }
+
 @keyframes focus-in-expand {
   0% {
     letter-spacing: -0.5em;
@@ -92,6 +142,7 @@
  * animation slide-in-left
  * ----------------------------------------
  */
+
 @-webkit-keyframes slide-in-left {
   0% {
     -webkit-transform: translateX(-1000px);
@@ -104,6 +155,7 @@
     opacity: 1;
   }
 }
+
 @keyframes slide-in-left {
   0% {
     -webkit-transform: translateX(-1000px);
@@ -153,7 +205,7 @@
   color: black;
 }
 
-#info-pics li:hover a{
+#info-pics li:hover a {
   color: white;
 }
 
