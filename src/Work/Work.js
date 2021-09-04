@@ -40,7 +40,7 @@ class Work extends React.Component {
           <SimpleCard
             company="Elexicon Energy"
             position="Database Engineer"
-            date="July 2020"
+            date="July-August 2020"
             about="Merged databases from company merger"
             text1="• Created and modified complex SQL Queries"
             text2="• Tested and deployed SSRS reports to Sharepoint"
@@ -50,10 +50,10 @@ class Work extends React.Component {
             company="Manulife Financial"
             position="Software Engineer"
             date="Sept 2020 - Aug 2021"
-            about="TBD"
-            text1="• Not sure what to expect"
-            text2="• Hopefully something in fullstack"
-            text3="• Will update this when I find out"
+            about="Full-Stack Developer for Group Benefits Division"
+            text1="• Front-end development with React, Redux"
+            text2="• Backend development with GraphQL"
+            text3="• Performance testing, Accesibility testing"
           />
         </div>
       </div>

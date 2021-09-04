@@ -1,17 +1,19 @@
 import React, { Component } from "react";
 import "./Technology.css";
+import Tooltip from '@material-ui/core/Tooltip';
 import pythonimg from "./../Static/project_images/python.ico";
 import html5img from "./../Static/project_images/html5.png";
 import css3img from "./../Static/project_images/CSS3.png";
 import javascriptimg from "./../Static/project_images/jslogo.png";
 import cimg from "./../Static/project_images/c.png";
-import githubimg from "./../Static/project_images/git-logooo.png";
+import git from "./../Static/project_images/git-logooo.png";
 import psqlimg from "./../Static/project_images/psql.png";
 import reactimg from "./../Static/project_images/react.png";
 import SASSimg from "./../Static/project_images/SASS.png";
 import java from "./../Static/project_images/java.png";
 import node from "./../Static/project_images/node.png";
 import sql from "./../Static/project_images/sql.png";
+import graphQL from "./../Static/project_images/graphql.png";
 
 class Technology extends Component {
   render() {
@@ -19,45 +21,90 @@ class Technology extends Component {
       <div id="Technology" className="default">
         <h3 className="title">Programming Languages</h3>
         <ul className="list">
+          <Tooltip title="Python">
+            <li>
+              <img src={pythonimg} alt="python" />
+            </li>
+          </Tooltip>
           <li>
-            <img src={pythonimg} alt="python" />
+            <Tooltip title="Java">
+              <img src={java} alt="java" />
+            </Tooltip>
           </li>
           <li>
-            <img src={java} alt="java" />
+            <Tooltip title="JavaScript">
+              <img src={javascriptimg} alt="javascript" />
+            </Tooltip>
           </li>
           <li>
-            <img src={javascriptimg} alt="javascript" />
+            <Tooltip title="C">
+              <img src={cimg} alt="c" />
+            </Tooltip>
           </li>
           <li>
-            <img src={cimg} alt="c" />
-          </li>
-          <li>
-            <img src={sql} alt="sql" />
+            <Tooltip title="SQL">
+              <img src={sql} alt="sql" />
+            </Tooltip>
           </li>
         </ul>
 
         <h2 className="title">Technical Tools</h2>
         <ul className="list">
           <li>
-            <img src={html5img} alt="html5" />
+            <Tooltip title="HTML">
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">
+              <img src={html5img} alt="html5" />
+            </a>
+            </Tooltip>
           </li>
           <li>
-            <img src={css3img} alt="css3" />
+            <Tooltip title="CSS">
+            <a href="https://www.w3.org/Style/CSS/Overview.en.html">
+              <img src={css3img} alt="css3" />
+            </a>
+            </Tooltip>
           </li>
           <li>
-            <img src={node} alt="node" />
+            <Tooltip title="Node.js">
+            <a href="https://nodejs.org/en/">
+              <img src={node} alt="node" />
+            </a>
+            </Tooltip>
           </li>
           <li>
-            <img src={githubimg} alt="github" />
+            <Tooltip title="Git">
+            <a href="https://git-scm.com/">
+              <img src={git} alt="git" />
+            </a>
+            </Tooltip>
           </li>
           <li>
-            <img src={reactimg} alt="react" />
+            <Tooltip title="React.js">
+            <a href="https://reactjs.org/">
+              <img src={reactimg} alt="react" />
+            </a>
+            </Tooltip>
           </li>
           <li>
-            <img src={SASSimg} alt="sass" />
+            <Tooltip title="SASS">
+            <a href="https://sass-lang.com/">
+              <img src={SASSimg} alt="sass" />
+            </a>
+            </Tooltip>
           </li>
           <li>
-            <img src={psqlimg} alt="psql" />
+            <Tooltip title="PSQL">
+            <a href="https://www.postgresql.org/">
+              <img src={psqlimg} alt="psql" />
+            </a>
+            </Tooltip>
+          </li>
+          <li>
+            <Tooltip title="GraphQL">
+            <a href="https://graphql.org/">
+              <img src={graphQL} alt="graphql" />
+            </a>
+            </Tooltip>
           </li>
         </ul>
       </div>
