@@ -5,6 +5,7 @@ import Interests from "./About/Interests";
 import Technology from "./Technology/Technology";
 import Projects from "./Projects/Projects";
 import Work from "./Work/Work";
+import Contact from "./Contact/Contact";
 import "./App.css";
 
 class App extends Component {
@@ -17,6 +18,7 @@ class App extends Component {
         <Work />
         <Technology />
         <Projects />
+        <Contact />
       </div>
     );
   }

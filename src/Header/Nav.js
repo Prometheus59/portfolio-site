@@ -25,6 +25,9 @@ class Nav extends Component {
             <Link smooth to="#Projects">
               Projects
             </Link>
+            <Link smooth to="#Contact">
+              Contact
+            </Link>
             <a
               target="_blank"
               href="https://drive.google.com/file/d/1wDxhGEao_hcphDdsC60yw9spswDPcrCz/view?usp=sharing"

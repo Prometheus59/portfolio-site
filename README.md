@@ -12,3 +12,4 @@ TODO:
 
 - Make mobile responsive
 - Edit animation to slide in "Hello" text
+- Add ability to download resume directly from the site
