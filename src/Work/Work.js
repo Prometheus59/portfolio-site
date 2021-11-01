@@ -53,7 +53,7 @@ class Work extends React.Component {
             about="Full-Stack Developer for Group Benefits Division"
             text1="• Front-end development with React, Redux"
             text2="• Backend development with GraphQL"
-            text3="• Performance testing, Accesibility testing"
+            text3="• Performance testing, Accessibility testing"
           />
         </div>
       </div>
