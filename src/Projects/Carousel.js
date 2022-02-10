@@ -8,20 +8,36 @@ import notes from "../Static/project_images/notes.png";
 import pac from "../Static/project_images/pac.png";
 import cvgenerator from "../Static/project_images/cv-generator.png";
 import ProjectCard from "./ProjectCard";
-import "../../node_modules/slick-carousel/slick/slick-theme.css"; 
+import "../../node_modules/slick-carousel/slick/slick-theme.css";
 import "../../node_modules/slick-carousel/slick/slick.css";
 
 class Carousel extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      windowWidth: window.innerWidth,
+    };
+  }
+
+  handleResize = (e) => {
+    this.setState({ windowWidth: window.innerWidth });
+  };
+
+  componentDidMount() {
+    window.addEventListener("resize", this.handleResize);
+  }
+
   render() {
+    const { windowWidth } = this.state;
     var settings = {
       dots: true,
       infinite: true,
       speed: 1000,
       arrows: true,
-      slidesToShow: 3,
+      slidesToShow: windowWidth < 1250 ? 1 : 3,
       className: "resourceCarousel",
       centerMode: false,
-      centerPadding: "60px"
+      centerPadding: "60px",
     };
     return (
       <Slider {...settings}>

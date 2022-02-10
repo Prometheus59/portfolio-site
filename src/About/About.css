@@ -13,8 +13,25 @@
   flex-direction: row;
 }
 
+@media only screen and (max-width: 1000px) {
+  .default {
+    height: 30em;
+  }
+
+  #About {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .default {
+    height: auto;
+    margin: auto;
+  }
+}
+
 .default #intro p {
-  width: 40em;
+  width: auto;
   margin-top: 40px;
   font-size: 120%;
 }
@@ -27,6 +44,16 @@
   height: 30em;
   width: 30em;
   margin: auto;
+  flex-shrink: 3;
+  display: inline-block;
+}
+
+@media only screen and (max-width: 1000px) {
+  #profilePic {
+    height: 18em;
+    width: 18em;
+    margin-top: 10px;
+  }
 }
 
 #interests {
@@ -36,16 +63,29 @@
   height: 18em;
 }
 
+@media screen and (max-width: 600px) {
+  #interests {
+    height: 25em;
+  }
+}
+
+@media screen and (max-width: 418px) {
+  #interests {
+    height: auto;
+  }
+}
+
 .header {
   margin: 0px;
   font-size: 280%;
 }
 
-
 .slide-in-left {
   -webkit-animation: slide-in-left 0.9s cubic-bezier(0.25, 0.46, 0.45, 0.94)
-    0.1s both, text-shadow-pop-tl 0.9s 3s both;
-  animation: slide-in-left 0.9s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.1s both, text-shadow-pop-tl 0.9s 3s both;
+      0.1s both,
+    text-shadow-pop-tl 0.9s 3s both;
+  animation: slide-in-left 0.9s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.1s both,
+    text-shadow-pop-tl 0.9s 3s both;
 }
 
 .slide-in-left-delay-1 {
