@@ -28,6 +28,12 @@
   }
 }
 
+@media screen and (max-width: 1000px) {
+  #Featured {
+    text-align: center;
+  }
+}
+
 .ProjectCards #pcard {
   margin: 10px 10px 10px 10px;
   border: 7px solid rgb(36, 42, 56);

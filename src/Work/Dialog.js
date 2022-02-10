@@ -9,20 +9,20 @@ import IconButton from "@material-ui/core/IconButton";
 import CloseIcon from "@material-ui/icons/Close";
 import Typography from "@material-ui/core/Typography";
 
-const DialogTitle = withStyles(theme => ({
+const DialogTitle = withStyles((theme) => ({
   root: {
     borderBottom: `1px solid ${theme.palette.divider}`,
     margin: 0,
     marginRight: "70px",
-    padding: theme.spacing.unit * 2
+    padding: theme.spacing.unit * 2,
   },
   closeButton: {
     position: "absolute",
     right: theme.spacing.unit,
     top: theme.spacing.unit,
-    color: theme.palette.grey[500]
-  }
-}))(props => {
+    color: theme.palette.grey[500],
+  },
+}))((props) => {
   const { children, classes, onClose } = props;
   return (
     <MuiDialogTitle disableTypography className={classes.root}>
@@ -40,29 +40,29 @@ const DialogTitle = withStyles(theme => ({
   );
 });
 
-const DialogContent = withStyles(theme => ({
+const DialogContent = withStyles((theme) => ({
   root: {
     margin: 0,
-    padding: theme.spacing.unit * 2
-  }
+    padding: theme.spacing.unit * 2,
+  },
 }))(MuiDialogContent);
 
-const DialogActions = withStyles(theme => ({
+const DialogActions = withStyles((theme) => ({
   root: {
     borderTop: `1px solid ${theme.palette.divider}`,
     margin: 0,
-    padding: theme.spacing.unit
-  }
+    padding: theme.spacing.unit,
+  },
 }))(MuiDialogActions);
 
 class DialogPop extends React.Component {
   state = {
-    open: false
+    open: false,
   };
 
   handleClickOpen = () => {
     this.setState({
-      open: true
+      open: true,
     });
   };
 
@@ -72,12 +72,11 @@ class DialogPop extends React.Component {
 
   render() {
     return (
-      <div>
+      <div id="learnMore">
         <Button
           variant="outlined"
           color="secondary"
           onClick={this.handleClickOpen}
-          className="learnButton"
         >
           Learn More
         </Button>

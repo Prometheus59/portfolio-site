@@ -11,9 +11,17 @@
   margin: 50px 0 50px 0;
 }
 
+@media screen and (max-width: 600px) {
+  .contact {
+    margin: 0;
+  }
+}
+
 .contact li a {
   width: 300px;
   height: auto;
+  padding: 15px;
+  margin: 10px;
 }
 
 #Contact h2 {
@@ -32,8 +40,10 @@
 }
 
 .text-pop-up-top {
-	-webkit-animation: text-pop-up-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 5s both;
-	        animation: text-pop-up-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 5s both;
+  -webkit-animation: text-pop-up-top 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 5s
+    both;
+  animation: text-pop-up-top 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 5s both;
+  text-align: center;
 }
 
 /* ----------------------------------------------

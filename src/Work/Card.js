@@ -11,22 +11,22 @@ const styles = {
     width: 400,
     marginLeft: 30,
     marginRight: 30,
-    marginBottom: 40
+    marginBottom: 40,
   },
   title: {
     fontSize: 14,
     fontWeight: 700,
-    color: "black"
+    color: "black",
   },
   pos: {
     marginBottom: 12,
-    marginTop: 12
+    marginTop: 12,
   },
   learn: {
     marginLeft: "auto",
     marginRight: "auto",
-    display: "inline"
-  }
+    display: "inline",
+  },
 };
 
 class SimpleCard extends React.Component {
