@@ -20,6 +20,24 @@ li img {
   transition: all 0.2s ease-in-out;
 }
 
+@media screen and (max-width: 600px) {
+  .list {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .list li {
+    padding: 10px 10px 10px 10px;
+    list-style-type: none;
+  }
+
+  li img {
+    max-width: 200px;
+    height: 90px;
+    transition: all 0.2s ease-in-out;
+  }
+}
+
 li img:hover {
   transform: scale(1.3);
 }

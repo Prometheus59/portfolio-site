@@ -11,8 +11,8 @@ import Typography from "@material-ui/core/Typography";
 
 const styles = {
   media: {
-    minHeight: 160
-  }
+    minHeight: 160,
+  },
 };
 
 function ProjectCard(props) {
@@ -53,7 +53,7 @@ function ProjectCard(props) {
 }
 
 ProjectCard.propTypes = {
-  classes: PropTypes.object.isRequired
+  classes: PropTypes.object.isRequired,
 };
 
 export default withStyles(styles)(ProjectCard);
