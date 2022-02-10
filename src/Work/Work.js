@@ -26,11 +26,11 @@ class Work extends React.Component {
             from the website"
             text2="• Preparing information, quoting insurance premiums and sending quotes to licensed WeCan
             Staff"
-            text3="• Responsible for incoming mail, maintained accurate document records"
+            text3="• Developed a JavaScript program to perform insurance premium calculations, reducing overall task time by ~ 30%"
           />
           <SimpleCard
             company="Elexicon Energy"
-            position="Summer Student"
+            position="Credit Dept. Contractor"
             date="May 2019 - Aug 2019"
             about="Created and distributed Elexicon Energy Tools"
             text1="• Created and distributed software to increase co-worker’s productivity"
@@ -42,18 +42,18 @@ class Work extends React.Component {
             position="Database Engineer"
             date="July-August 2020"
             about="Merged databases from company merger"
-            text1="• Created and modified complex SQL Queries"
-            text2="• Tested and deployed SSRS reports to Sharepoint"
-            text3=""
+            text1="• Managed testing and deployment of SSRS reports to Sharepoint & IBM Cognos"
+            text2="• Created and modified complex SQL Queries across multiple databases"
+            text3="• Assisted with server migration resulting from a company merger"
           />
           <SimpleCard
             company="Manulife Financial"
             position="Software Engineer"
             date="Sept 2020 - Aug 2021"
             about="Full-Stack Developer for Group Benefits Division"
-            text1="• Front-end development with React, Redux"
-            text2="• Backend development with GraphQL"
-            text3="• Performance testing, Accessibility testing"
+            text1="• Front-end development for the next generation of group benefit onboarding with React, Redux"
+            text2="• Back-end development for group benefit core services utilizing GraphQL and SQL"
+            text3="• Spearheaded performance testing with Artillery scripts & accessibility testing to WCAG & AODA standards"
           />
         </div>
       </div>
