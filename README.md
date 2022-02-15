@@ -10,6 +10,5 @@ Url Link: http://www.ryan-karumanchery.live
 _____
 TODO:
 
-- Make mobile responsive
-- Edit animation to slide in "Hello" text
+- Make mobile responsive header
 - Add ability to download resume directly from the site
