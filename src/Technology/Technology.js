@@ -14,6 +14,9 @@ import java from "./../Static/project_images/java.png";
 import node from "./../Static/project_images/node.png";
 import sql from "./../Static/project_images/sql.png";
 import graphQL from "./../Static/project_images/graphql.png";
+import artillery from "./../Static/project_images/artilleryimg.png"
+import jest from "./../Static/project_images/jest.png"
+import mongodb from "./../Static/project_images/mongodb.png"
 
 class Technology extends Component {
   render() {
@@ -52,58 +55,79 @@ class Technology extends Component {
         <ul className="list">
           <li>
             <Tooltip title="HTML">
-            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">
-              <img src={html5img} alt="html5" />
-            </a>
+              <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">
+                <img src={html5img} alt="html5" />
+              </a>
             </Tooltip>
           </li>
           <li>
             <Tooltip title="CSS">
-            <a href="https://www.w3.org/Style/CSS/Overview.en.html">
-              <img src={css3img} alt="css3" />
-            </a>
+              <a href="https://www.w3.org/Style/CSS/Overview.en.html">
+                <img src={css3img} alt="css3" />
+              </a>
             </Tooltip>
           </li>
           <li>
             <Tooltip title="Node.js">
-            <a href="https://nodejs.org/en/">
-              <img src={node} alt="node" />
-            </a>
+              <a href="https://nodejs.org/en/">
+                <img src={node} alt="node" />
+              </a>
             </Tooltip>
           </li>
           <li>
             <Tooltip title="Git">
-            <a href="https://git-scm.com/">
-              <img src={git} alt="git" />
-            </a>
+              <a href="https://git-scm.com/">
+                <img src={git} alt="git" />
+              </a>
             </Tooltip>
           </li>
           <li>
             <Tooltip title="React.js">
-            <a href="https://reactjs.org/">
-              <img src={reactimg} alt="react" />
-            </a>
+              <a href="https://reactjs.org/">
+                <img src={reactimg} alt="react" />
+              </a>
             </Tooltip>
           </li>
           <li>
             <Tooltip title="SASS">
-            <a href="https://sass-lang.com/">
-              <img src={SASSimg} alt="sass" />
-            </a>
+              <a href="https://sass-lang.com/">
+                <img src={SASSimg} alt="sass" />
+              </a>
             </Tooltip>
           </li>
           <li>
             <Tooltip title="PSQL">
-            <a href="https://www.postgresql.org/">
-              <img src={psqlimg} alt="psql" />
-            </a>
+              <a href="https://www.postgresql.org/">
+                <img src={psqlimg} alt="psql" />
+              </a>
             </Tooltip>
           </li>
           <li>
             <Tooltip title="GraphQL">
-            <a href="https://graphql.org/">
-              <img src={graphQL} alt="graphql" />
-            </a>
+              <a href="https://graphql.org/">
+                <img src={graphQL} alt="graphql" />
+              </a>
+            </Tooltip>
+          </li>
+          <li>
+            <Tooltip title="Artillery">
+              <a href="https://artillery.io/">
+                <img src={artillery} alt="artillery.io" />
+              </a>
+            </Tooltip>
+          </li>
+          <li>
+            <Tooltip title="Jest">
+              <a href="https://jestjs.io/">
+                <img src={jest} alt="Jest" />
+              </a>
+            </Tooltip>
+          </li>
+          <li>
+            <Tooltip title="MongoDB">
+              <a href="https://www.mongodb.com/">
+                <img src={mongodb} alt="MongoDB" />
+              </a>
             </Tooltip>
           </li>
         </ul>
