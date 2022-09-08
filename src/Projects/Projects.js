@@ -1,8 +1,8 @@
 import "./Projects.css";
 import Carousel from "./Carousel";
-import lucidplatform from "../Static/project_images/lucid-platform-cover.png";
 import wecan from "../Static/project_images/WeCanInsurace.png";
 import elexicon from "../Static/project_images/elexicon-energy.png";
+import MakeAMeal from "../Static/project_images/make-a-meal.jpg";
 import ProjectCard from "./ProjectCard";
 import React from "react";
 
@@ -17,10 +17,10 @@ class Projects extends React.Component {
           <h3>Featured Projects</h3>
           <div className="ProjectCards">
             <ProjectCard
-              imglink={lucidplatform}
-              title="Lucid Dreaming Platform"
-              description="Resources for lucid dreaming"
-              githublink="https://github.com/Prometheus59/Lucid-Platform"
+              imglink={MakeAMeal}
+              title="Make-A-Meal"
+              description="Given a list of ingredients, receive a list of recipes that include most/all of the ingredients"
+              githublink="https://github.com/Prometheus59/make-a-meal"
             />
             <ProjectCard
               imglink={wecan}
@@ -38,8 +38,8 @@ class Projects extends React.Component {
         </div>
 
         <div className="OtherCards">
-        <h3>Other Projects</h3>
-        <Carousel />
+          <h3>Other Projects</h3>
+          <Carousel />
         </div>
       </div>
     );

@@ -81,6 +81,14 @@ class Carousel extends React.Component {
             githublink="https://github.com/Prometheus59/print-news"
           />
         </div>
+        <div className="resourceCarouselSlides">
+          <ProjectCard
+            imglink={lucidplatform}
+            title="Lucid Dreaming Platform"
+            description="Resources for lucid dreaming"
+            githublink="https://github.com/Prometheus59/Lucid-Platform"
+          />
+        </div>
       </Slider>
     );
   }
