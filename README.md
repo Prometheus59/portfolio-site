@@ -4,7 +4,7 @@
 
 Personal site showcasing personal projects, work experience, and hobbies.
 
-Url Link: http://www.ryan-karumanchery.live
+Url Link: https://www.ryank.info
 
 
 _____
