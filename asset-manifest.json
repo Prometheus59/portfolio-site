@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.d1e822c0.css",
   "main.css.map": "static/css/main.d1e822c0.css.map",
-  "main.js": "static/js/main.770d15af.js",
-  "main.js.map": "static/js/main.770d15af.js.map",
+  "main.js": "static/js/main.11b44bdc.js",
+  "main.js.map": "static/js/main.11b44bdc.js.map",
   "static\\media\\CSS3.png": "static/media/CSS3.b4c13110.png",
   "static\\media\\WeCanInsurace.png": "static/media/WeCanInsurace.7f4b4762.png",
   "static\\media\\artilleryimg.png": "static/media/artilleryimg.0212b126.png",
@@ -17,6 +17,7 @@
   "static\\media\\jslogo.png": "static/media/jslogo.9ca4af2b.png",
   "static\\media\\linkedin.png": "static/media/linkedin.46b3486e.png",
   "static\\media\\lucid-platform-cover.png": "static/media/lucid-platform-cover.13555097.png",
+  "static\\media\\make-a-meal.jpg": "static/media/make-a-meal.b9429665.jpg",
   "static\\media\\mongodb.png": "static/media/mongodb.83d15034.png",
   "static\\media\\news_pic.jpg": "static/media/news_pic.f2c87a95.jpg",
   "static\\media\\node.png": "static/media/node.f8dab57d.png",
