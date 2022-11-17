@@ -12,3 +12,4 @@ TODO:
 
 - Make mobile responsive header
 - Add ability to download resume directly from the site
+- Stop overflow from profile picture movement

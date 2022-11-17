@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Technology.css";
-import Tooltip from '@material-ui/core/Tooltip';
+import Tooltip from "@material-ui/core/Tooltip";
 import pythonimg from "./../Static/project_images/python.ico";
 import html5img from "./../Static/project_images/html5.png";
 import css3img from "./../Static/project_images/CSS3.png";
@@ -14,9 +14,10 @@ import java from "./../Static/project_images/java.png";
 import node from "./../Static/project_images/node.png";
 import sql from "./../Static/project_images/sql.png";
 import graphQL from "./../Static/project_images/graphql.png";
-import artillery from "./../Static/project_images/artilleryimg.png"
-import jest from "./../Static/project_images/jest.png"
-import mongodb from "./../Static/project_images/mongodb.png"
+import artillery from "./../Static/project_images/artilleryimg.png";
+import jest from "./../Static/project_images/jest.png";
+import mongodb from "./../Static/project_images/mongodb.png";
+import typescript from "./../Static/project_images/TS_logo.png";
 
 class Technology extends Component {
   render() {
@@ -54,20 +55,6 @@ class Technology extends Component {
         <h2 className="title">Technical Tools</h2>
         <ul className="list">
           <li>
-            <Tooltip title="HTML">
-              <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">
-                <img src={html5img} alt="html5" />
-              </a>
-            </Tooltip>
-          </li>
-          <li>
-            <Tooltip title="CSS">
-              <a href="https://www.w3.org/Style/CSS/Overview.en.html">
-                <img src={css3img} alt="css3" />
-              </a>
-            </Tooltip>
-          </li>
-          <li>
             <Tooltip title="Node.js">
               <a href="https://nodejs.org/en/">
                 <img src={node} alt="node" />
@@ -85,6 +72,27 @@ class Technology extends Component {
             <Tooltip title="React.js">
               <a href="https://reactjs.org/">
                 <img src={reactimg} alt="react" />
+              </a>
+            </Tooltip>
+          </li>
+          <li>
+            <Tooltip title="TypeScript">
+              <a href="https://www.typescriptlang.org/">
+                <img src={typescript} alt="typescript" />
+              </a>
+            </Tooltip>
+          </li>
+          <li>
+            <Tooltip title="HTML">
+              <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">
+                <img src={html5img} alt="html5" />
+              </a>
+            </Tooltip>
+          </li>
+          <li>
+            <Tooltip title="CSS">
+              <a href="https://www.w3.org/Style/CSS/Overview.en.html">
+                <img src={css3img} alt="css3" />
               </a>
             </Tooltip>
           </li>
