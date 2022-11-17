@@ -30,7 +30,7 @@ class Nav extends Component {
             </Link>
             <a
               target="_blank"
-              href="https://drive.google.com/file/d/1wDxhGEao_hcphDdsC60yw9spswDPcrCz/view?usp=sharing"
+              href="https://drive.google.com/file/d/1wAWlnXzUoYc0qqRv8Ft3dRK6pjVbSfqb/view?usp=share_link"
             >
               Resume
             </a>
