@@ -9,6 +9,15 @@ class Work extends React.Component {
         <h1>Work Experience</h1>
         <div className="Cards">
           <SimpleCard
+            company="NCR"
+            position="Software Engineer"
+            date="March 2023 - Present"
+            about="Full-Stack Software Engineer"
+            text1="• Will update soon - stay tuned!"
+            text2="• Expected: Front-end development with React.js"
+            text3="• Expected: Back-end development with Java"
+          />
+          <SimpleCard
             company="Manulife Financial"
             position="Software Engineer"
             date="Sept 2020 - Aug 2021"
