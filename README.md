@@ -4,7 +4,7 @@
 
 Personal site showcasing personal projects, work experience, and hobbies.
 
-Url Link: https://www.ryank.info
+Url Link: https://www.ryank.bio
 
 
 _____
