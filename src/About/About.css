@@ -42,7 +42,7 @@
 
 #profilePic {
   height: 30em;
-  width: 30em;
+  max-width: 30em;
   margin: auto;
   flex-shrink: 3;
   display: inline-block;
@@ -50,8 +50,8 @@
 
 @media only screen and (max-width: 1000px) {
   #profilePic {
-    height: 18em;
-    width: 18em;
+    max-height: 18em;
+    max-width: 18em;
     margin-top: 10px;
   }
 }
