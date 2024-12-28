@@ -18,7 +18,7 @@
 
 li img {
   max-width: 175px;
-  height: 90px;
+  height: 100px;
   transition: all 0.2s ease-in-out;
 }
 
@@ -26,6 +26,7 @@ li img {
   .list {
     padding-left: 0;
     padding-right: 0;
+    width: 100%;
   }
 
   .list li {
@@ -36,6 +37,12 @@ li img {
   li img {
     max-width: 200px;
     height: 90px;
+    transition: all 0.2s ease-in-out;
+  }
+
+  #technicalTools li img {
+    max-width: 150px;
+    max-height: 70px;
     transition: all 0.2s ease-in-out;
   }
 }
