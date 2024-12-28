@@ -13,9 +13,9 @@ class Work extends React.Component {
             position="Software Engineer"
             date="March 2023 - Present"
             about="Full-Stack Software Engineer"
-            text1="• Will update soon - stay tuned!"
-            text2="• Expected: Front-end development with React.js"
-            text3="• Expected: Back-end development with Java"
+            text1="• Developed and enhanced features for a React-based banking teller application deployed globally across Citibank and Wintrust bank branches."
+            text2="• Drove the initiative to start using Wallaby for comprehensive code coverage testing, enhancing testing efficiency and thoroughness."
+            text3="• Contributed significantly to the integration of proprietary microservices and banking APIs, ensuring seamless functionality and enhancing application capabilities"
           />
           <SimpleCard
             company="Manulife Financial"
@@ -40,7 +40,7 @@ class Work extends React.Component {
             position="Credit Dept. Contractor"
             date="May 2019 - Aug 2019"
             about="Created and distributed Elexicon Energy Tools"
-            text1="• Created and distributed software to increase co-worker’s productivity"
+            text1="• Created and distributed an electron based application to increase co-worker’s productivity"
             text2="• Created and managed all outgoing disconnection notices"
             text3="• Maintained records for disconnects, reconnects, contracting, weather and IVR’s"
           />

@@ -18,6 +18,7 @@ import artillery from "./../Static/project_images/artilleryimg.png";
 import jest from "./../Static/project_images/jest.png";
 import mongodb from "./../Static/project_images/mongodb.png";
 import typescript from "./../Static/project_images/TS_logo.png";
+import redux from "./../Static/project_images/redux-icon.png";
 
 class Technology extends Component {
   render() {
@@ -25,19 +26,19 @@ class Technology extends Component {
       <div id="Technology" className="default">
         <h3 className="title">Programming Languages</h3>
         <ul className="list">
-          <Tooltip title="Python">
-            <li>
-              <img src={pythonimg} alt="python" />
-            </li>
-          </Tooltip>
-          <li>
-            <Tooltip title="Java">
-              <img src={java} alt="java" />
-            </Tooltip>
-          </li>
           <li>
             <Tooltip title="JavaScript">
               <img src={javascriptimg} alt="javascript" />
+            </Tooltip>
+          </li>
+          <li>
+            <Tooltip title="Python">
+              <img src={pythonimg} alt="python" />
+            </Tooltip>
+          </li>
+          <li>
+            <Tooltip title="Java">
+              <img src={java} alt="java" />
             </Tooltip>
           </li>
           <li>
@@ -79,6 +80,13 @@ class Technology extends Component {
             <Tooltip title="TypeScript">
               <a href="https://www.typescriptlang.org/">
                 <img src={typescript} alt="typescript" />
+              </a>
+            </Tooltip>
+          </li>
+          <li>
+            <Tooltip title="Redux">
+              <a href="https://react-redux.js.org/">
+                <img src={redux} alt="redux" />
               </a>
             </Tooltip>
           </li>

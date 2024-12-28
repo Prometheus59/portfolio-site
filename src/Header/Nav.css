@@ -36,6 +36,9 @@
   #nav {
     padding: 5px;
     margin: auto;
+    height: auto;
+    padding-bottom: 0px;
+    margin-bottm: 0px;
   }
 
   #nav h2 {
